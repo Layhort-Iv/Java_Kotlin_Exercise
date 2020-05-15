@@ -2,7 +2,7 @@ package Rachana;
 
 import java.util.Scanner;
 
-public class First {
+public class FirstExercise {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 //1. Write a Java program to find the sum of two numbers.
