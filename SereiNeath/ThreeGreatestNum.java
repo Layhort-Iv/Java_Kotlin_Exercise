@@ -11,6 +11,7 @@ public class ThreeGreatestNum {
         int num2 = input.nextInt();
         System.out.print("Enter a third number:");
         int num3 = input.nextInt();
+        input.close();
 
         if (num1 > num2){
             if (num1 > num3){

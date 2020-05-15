@@ -9,6 +9,7 @@ public class SumSubMulDiv {
         int num1 = input.nextInt();
         System.out.print("Enter a 2nd number:");
         int num2 = input.nextInt();
+        input.close();
 
         int sum = num1 + num2;
         int sub = num1 - num2;

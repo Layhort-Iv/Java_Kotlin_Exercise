@@ -15,7 +15,7 @@ public class SumAverage {
         float javaScore = input.nextFloat();
         System.out.print("Enter a HTML score: ");
         float htmlScore = input.nextFloat();
-
+        input.close();
         float sum = mathScore + pythonScore + englishScore + javaScore + htmlScore;
         float average = sum/5;
 
