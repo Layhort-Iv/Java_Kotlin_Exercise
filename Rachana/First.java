@@ -1,6 +1,8 @@
+package Rachana;
+
 import java.util.Scanner;
 
-public class First_exercise {
+public class First {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 //1. Write a Java program to find the sum of two numbers.
@@ -21,7 +23,7 @@ public class First_exercise {
         System.out.println("The length is: " + length);
         System.out.println("The width is: " + width);
         System.out.println("Area of circle is : " + (length * width));
-        System.out.println("Circumference of a circle is : " + (2 * length * width ));
+        System.out.println("Circumference of a circle is : " + (2 * (length + width ));
 
 
 //3. Write a Java program to find the sum and average of 5 subjects.
@@ -72,5 +74,6 @@ public class First_exercise {
         System.out.println("The division of these number is: "+ (first_num / second_num));
         System.out.println("The remainder of these number is: "+ (first_num % second_num));
 
+        sc.close();
     }
 }
