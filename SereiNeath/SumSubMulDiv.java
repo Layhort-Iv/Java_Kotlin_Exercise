@@ -1,3 +1,4 @@
+package SereiNeath;
 import java.util.Scanner;
 
 public class SumSubMulDiv {

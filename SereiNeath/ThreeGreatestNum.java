@@ -1,3 +1,4 @@
+package SereiNeath;
 import java.util.Scanner;
 
 public class ThreeGreatestNum {
@@ -27,8 +28,5 @@ public class ThreeGreatestNum {
                 System.out.printf("%d is the greatest number", num3);
             }
         }
-
-
-
     }
 }
