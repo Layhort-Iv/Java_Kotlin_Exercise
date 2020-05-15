@@ -1,3 +1,4 @@
+package SreyLin.Java;
 import java.util.Scanner;
 
 public class GreatestNumber {
@@ -18,6 +19,7 @@ public class GreatestNumber {
             System.out.println("B is the greatest number!");
         else
             System.out.println("C is the greatest number!");
-
+        
+        sc.close();
     }
 }

@@ -1,3 +1,4 @@
+package SreyLin.Java;
 import java.util.Scanner;
 
 public class SumAverage5Sub {
