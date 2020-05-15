@@ -1,6 +1,8 @@
+package Rachana;
+
 import java.util.Scanner;
 
-public class First_exercise {
+public class First {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 //1. Write a Java program to find the sum of two numbers.
@@ -72,5 +74,6 @@ public class First_exercise {
         System.out.println("The division of these number is: "+ (first_num / second_num));
         System.out.println("The remainder of these number is: "+ (first_num % second_num));
 
+        sc.close();
     }
 }
