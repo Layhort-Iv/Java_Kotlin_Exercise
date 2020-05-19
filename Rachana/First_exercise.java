@@ -1,3 +1,4 @@
+package Rachana;
 import java.util.Scanner;
 
 public class First_exercise {
@@ -71,6 +72,6 @@ public class First_exercise {
         System.out.println("The multiply of these number is: "+ (first_num * second_num));
         System.out.println("The division of these number is: "+ (first_num / second_num));
         System.out.println("The remainder of these number is: "+ (first_num % second_num));
-
+        sc.close();
     }
 }

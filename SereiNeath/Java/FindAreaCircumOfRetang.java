@@ -1,3 +1,4 @@
+package SereiNeath;
 import java.util.Scanner;
 
 public class FindAreaCircumOfRetang {
@@ -8,7 +9,8 @@ public class FindAreaCircumOfRetang {
         float length = input.nextFloat();
         System.out.println("Enter a Width of Rectangle:");
         float width = input.nextFloat();
-
+        input.close();
+        
         float area = length * width;
         float circum = 2 * (length + width);
 
