@@ -1,4 +1,4 @@
-package SereiNeath;
+package SereiNeath.Java;
 import java.util.Scanner;
 
 public class ThreeGreatestNum {
